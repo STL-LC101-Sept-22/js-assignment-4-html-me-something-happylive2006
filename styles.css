@@ -1,1 +1,46 @@
 /* Write your CSS here! */
+ #mainHeading{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: black(218, 4, 40);
+    color: red;
+    border-bottom: 4px solid rgb(99, 99, 89);
+}
+body{
+    margin:8px;
+    display:block;
+}
+#places {
+    background-color: #8B4513;
+    text-align: center;
+  }
+  
+p {
+    background-color: green;
+  }
+
+  #testP{
+
+  }
+  #funParagraph {
+    color:green;
+  }
+  .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+  .gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }  
