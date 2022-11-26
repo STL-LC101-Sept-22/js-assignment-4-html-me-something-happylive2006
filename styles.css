@@ -16,14 +16,10 @@ body{
     text-align: center;
   }
   
-p {
-    background-color: green;
-  }
-
   #testP{
-
+    color:green;
   }
-  #funParagraph {
+  .fun-Paragraph {
     color:green;
   }
   .gallery {
